@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  height: 100%;
+  
+
+}
+
+.row {
+   
+   flex-wrap:wrap;
+    text-align: center;
+    }
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  height: 80vh;
+  width: 60%;
+  margin:  auto;
+}
+
+.mensajes {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.resultado {
+  
+  padding: 3rem 0;
+  color: black;
+  
+}
+form label {
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: 38%;
+     
+}
+input[type="submit"]:disabled{
+  opacity: .2;
+  color: black;
+  max-width: 600px;
+  
+}
+
+input{width: 50%;
+height: 40%;}
+
+.error {
+  background-color: white;
+  border:2px solid red;
+  padding: .5rem;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.resultado p {
+  margin: 0;
+}
+
+.calcular {max-width: 600px;
+  margin-top: 2%;      }
+
+.mensaje h1 {color: black;}
+
+
+.resultado p {
+  
+  font-size: 30px;
+  color: black}
+
+  .cuestionario {
+   
+    flex-wrap:wrap;
+     text-align: center;
+     
+     }
+
+ .asd{
+      background-color: linear-gradient(90deg, #6da1af 0%, #4655da 100%);
+      width: 50%;
+      height: 40%;
+      
+    }
+
+
+
